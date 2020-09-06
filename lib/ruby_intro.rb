@@ -5,6 +5,11 @@
 
 def sum(arr)
   # TODO: YOUR CODE HERE
+  if arr.empty?
+    0
+  else
+    arr.sum
+  end
 end
 
 def max_2_sum(arr)
